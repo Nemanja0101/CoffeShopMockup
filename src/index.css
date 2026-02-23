@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-choco-50:  #fdf8f3;
+  --color-choco-100: #f5e9d8;
+  --color-choco-200: #e9ceac;
+  --color-choco-300: #d9aa78;
+  --color-choco-400: #c4834a;
+  --color-choco-500: #a0522d;  /* main chocolate */
+  --color-choco-600: #8b3e1f;
+  --color-choco-700: #6f2c14;
+  --color-choco-800: #4e1c0c;
+  --color-choco-900: #2e0f06;
+}
