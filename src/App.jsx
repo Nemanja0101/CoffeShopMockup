@@ -5,6 +5,7 @@ import FindUsPage from "./pages/FindUsPage";
 import AboutPage from "./pages/AboutPage";
 import EventsPage from "./pages/EventsPage";
 import RewardsPage from "./pages/RewardsPage";
+import ContactPage from "./pages/ContactPage";
 
 const featured = [
   {
@@ -62,6 +63,7 @@ export default function App() {
             { id: "events", label: "Events" },
             { id: "rewards", label: "Rewards" },
             { id: "findus", label: "Find Us" },
+            { id: "contact", label: "Contact" },
           ].map((tab) => (
             <button
               key={tab.id}
@@ -85,6 +87,8 @@ export default function App() {
         <RewardsPage />
       ) : page === "findus" ? (
         <FindUsPage />
+      ) : page === "contact" ? (
+        <ContactPage />
       ) : (
         <>
           {/* Hero */}
